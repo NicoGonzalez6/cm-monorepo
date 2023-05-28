@@ -1,0 +1,19 @@
+:root {
+  /* Primary */
+  --cm-color-primary: #0075ff;
+
+  /* whites */
+  --cm-color-white: #fff;
+  --cm-color-white-darker: #eff3fb;
+
+  /* messages */
+  --cm-color-success: #35c14a;
+  --cm-color-error: #fe2424;
+
+  /* text */
+  --cm-color-base: #000c29;
+
+  /* text disabled */
+  --cm-color-disabled: #525c6e;
+  --cm-color-disabled-soft: #adb3ba;
+}

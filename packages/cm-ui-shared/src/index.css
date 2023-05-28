@@ -1,0 +1,8 @@
+/* Tailwind Base */
+@import 'tailwindcss/base';
+
+@import 'cm-theme-shared/src/index.css';
+
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/screens';

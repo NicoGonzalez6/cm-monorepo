@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+  --cm-typo_font-family--sans: 'Montserrat', sans-serif;
+
+  /* Font Weight */
+  --cm-typo_font-weight--bold: 700;
+  --cm-typo_font-weight--medium: 500;
+  --cm-typo_font-weight--regular: 400;
+
+  /* Font Size */
+
+  --base: 16;
+
+  /* 8xl */
+  --cm-typo_font-size--8xl: calc((68 / var(--base) * 1rem));
+  --cm-typo_line-height--8xl: 89px;
+
+  /* 7xl */
+  --cm-typo_font-size--7xl: calc((58 / var(--base) * 1rem));
+  --cm-typo_line-height--7xl: 76px;
+
+  /* 6xl */
+  --cm-typo_font-size--6xl: calc((50 / var(--base) * 1rem));
+  --cm-typo_line-height--6xl: 65px;
+
+  /* 5xl */
+  --cm-typo_font-size--5xl: calc((42 / var(--base) * 1rem));
+  --cm-typo_line-height--5xl: 55px;
+
+  /* 4xl */
+  --cm-typo_font-size--4xl: calc((36 / var(--base) * 1rem));
+  --cm-typo_line-height--4xl: 47px;
+
+  /* 3xl */
+  --cm-typo_font-size--3xl: calc((30 / var(--base) * 1rem));
+  --cm-typo_line-height--3xl: 39px;
+
+  /* 2xl */
+  --cm-typo_font-size--2xl: calc((26 / var(--base) * 1rem));
+  --cm-typo_line-height--2xl: 39px;
+
+  /* xl */
+  --cm-typo_font-size--xl: calc((22 / var(--base) * 1rem));
+  --cm-typo_line-height--xl: 33px;
+
+  /* lg */
+  --cm-typo_font-size--lg: calc((18 / var(--base) * 1rem));
+  --cm-typo_line-height--lg: 27px;
+
+  /* base */
+  --cm-typo_font-size--base: calc((16 / var(--base) * 1rem));
+  --cm-typo_line-height--base: 24px;
+
+  /* sm */
+  --cm-typo_font-size--sm: calc((14 / var(--base) * 1rem));
+  --cm-typo_line-height--sm: 20px;
+
+  /* xs */
+  --cm-typo_font-size--xs: calc((12 / var(--base) * 1rem));
+  --cm-typo_line-height--xs: 18px;
+}

@@ -1,0 +1,12 @@
+:root {
+  /* Spacing */
+  --cm-space_1: 8px;
+  --cm-space_2: 12px;
+  --cm-space_3: 16px;
+  --cm-space_4: 24px;
+  --cm-space_5: 32px;
+  --cm-space_6: 48px;
+  --cm-space_7: 64px;
+  --cm-space_8: 72px;
+  --cm-space_9: 96px;
+}

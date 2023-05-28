@@ -1,0 +1,2 @@
+declare;
+('cm-theme-shared');
