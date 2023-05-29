@@ -11,6 +11,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
     "cm-theme-shared": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

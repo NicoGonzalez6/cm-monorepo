@@ -3,9 +3,19 @@ const screens = require('./screens');
 module.exports = {
   screens,
   colors: {
-    primary: 'var(--cm-color-primary)',
+    primary: {
+      900: 'var(--cm-primary-900)',
+      800: 'var(--cm-primary-800)',
+      700: 'var(--cm-primary-700)',
+      600: 'var(--cm-primary-600)',
+      500: 'var(--cm-primary-500)',
+      400: 'var(--cm-primary-400)',
+      300: 'var(--cm-primary-300)',
+      200: 'var(--cm-primary-200)',
+      100: 'var(--cm-primary-100)',
+    },
     white: 'var(--cm-color-white)',
-    darkWhite: 'var(--cm-color-white-darker)',
+    darkerWhite: 'var(--cm-color-white-darker)',
     error: 'var(--cm-color-error)',
     success: 'var(--cm-color-success)',
     base: 'var(--cm-color-base)',

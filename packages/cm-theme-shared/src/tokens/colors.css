@@ -1,8 +1,16 @@
 :root {
   /* Primary */
-  --cm-color-primary: #0075ff;
+  --cm-primary-900: #00244f;
+  --cm-primary-800: #003f8a;
+  --cm-primary-700: #005ac4;
+  --cm-primary-600: #005ac4;
+  --cm-primary-500: #0075ff;
+  --cm-primary-400: #3b95ff;
+  --cm-primary-300: #75b4ff;
+  --cm-primary-200: #b0d4ff;
+  --cm-primary-100: #ebf4ff;
 
-  /* whites */
+  /* cmites */
   --cm-color-white: #fff;
   --cm-color-white-darker: #eff3fb;
 
