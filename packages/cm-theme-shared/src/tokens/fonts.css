@@ -57,6 +57,6 @@
   --cm-typo_line-height--sm: 20px;
 
   /* xs */
-  --cm-typo_font-size--xs: calc((12 / var(--base) * 1rem));
+  --cm-typo_font-size--xs: calc((10 / var(--base) * 1rem));
   --cm-typo_line-height--xs: 18px;
 }

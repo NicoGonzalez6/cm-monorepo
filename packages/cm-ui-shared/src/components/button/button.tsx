@@ -38,8 +38,8 @@ export const CmButton: React.FC<CmButtonProps> = ({
     <div
       className={classnames(
         buttonTheme.defaultStyles,
-        `${buttonTheme.buttonType[btnType]}`,
-        `${buttonTheme.buttonSize[btnSize]}`,
+        buttonTheme.buttonType[btnType],
+        buttonTheme.buttonSize[btnSize],
       )}
       onClick={onClickHandler}
     >

@@ -18,7 +18,7 @@ module.exports = {
     darkerWhite: 'var(--cm-color-white-darker)',
     error: 'var(--cm-color-error)',
     success: 'var(--cm-color-success)',
-    base: 'var(--cm-color-base)',
+    baseColor: 'var(--cm-color-base)',
     disabled: 'var(--cm-color-disabled)',
     softDisabled: 'var(--cm-color-disabled-soft)',
   },
