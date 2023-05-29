@@ -1,21 +1,11 @@
 import classnames from 'classnames';
+import { CmSpinnerProps } from './types';
 
-type CmSpinnerSizes = 'sm' | 'md' | 'lg';
-
-interface CmSpinnerProps {
-  spinnerSize?: CmSpinnerSizes;
-}
-
-export const Spinner: React.FC<CmSpinnerProps> = ({ spinnerSize = 'sm' }) => {
-  const getSpinnerSize = (size: CmSpinnerSizes) => {
-    switch (size) {
-      case 'sm':
-        return 'cm-w-5 cm-h-8';
-      case 'md':
-        return 'cm-w-6 cm-h-8';
-      case 'lg':
-        return 'cm-w-8 cm-h-8';
-    }
+export const CmSpinner: React.FC<CmSpinnerProps> = ({ spinnerSize = 'sm' }) => {
+  const CmSpinnerTheme = {
+    sm: 'cm-w-4 cm-h-8',
+    md: 'cm-w-6 cm-h-8',
+    lg: 'cm-w-8 cm-h-8',
   };
 
   return (
@@ -23,8 +13,8 @@ export const Spinner: React.FC<CmSpinnerProps> = ({ spinnerSize = 'sm' }) => {
       <svg
         aria-hidden="true"
         className={classnames(
-          getSpinnerSize(spinnerSize),
-          'cm-text-gray-200  cm-animate-spin cm-text-white cm-fill-primary-600',
+          CmSpinnerTheme[spinnerSize],
+          'cm-text-gray-200 cm-duration-75  cm-animate-spin cm-text-white cm-fill-primary-600',
         )}
         viewBox="0 0 100 101"
         fill="none"

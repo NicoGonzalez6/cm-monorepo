@@ -1,1 +1,1 @@
-export { Spinner } from './Spinner';
+export { CmSpinner } from './Spinner';
