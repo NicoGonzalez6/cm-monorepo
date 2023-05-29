@@ -1,13 +1,13 @@
 import classnames from 'classnames';
 import { CmSpinnerProps } from './types';
 
-export const CmSpinner: React.FC<CmSpinnerProps> = ({ spinnerSize = 'sm' }) => {
-  const CmSpinnerTheme = {
-    sm: 'cm-w-4 cm-h-8',
-    md: 'cm-w-6 cm-h-8',
-    lg: 'cm-w-8 cm-h-8',
-  };
+const CmSpinnerTheme = {
+  sm: 'cm-w-4 cm-h-8',
+  md: 'cm-w-6 cm-h-8',
+  lg: 'cm-w-8 cm-h-8',
+};
 
+export const CmSpinner: React.FC<CmSpinnerProps> = ({ spinnerSize = 'sm' }) => {
   return (
     <div role="status">
       <svg
